@@ -1,1 +1,34 @@
-todo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/gh/mnik01/nca-signer-js@latest/signer.js"></script>
+
+</head>
+<body>
+  <h3>Выберите файл для подписи</h3>
+  <input type="file" id="fileInput" />
+  <button id="submit">Подписать файл</button>
+  <script>
+    try {
+      NCASigner.connect({ // can throw connection error
+          wsUrl: 'wss://127.0.0.1:13579/', // can be ommited since it's default value
+      })
+      NCASigner.linkFileInput({ id: "fileInput" });
+  
+      document.querySelector("#submit").addEventListener('click', async () => {
+          try {
+              let signedData = await NCASigner.signFile(); // can throw
+              NCASigner.downloadCMSFile(signedData);
+          } catch (error) {
+              console.error("Signing failed:", error);
+          }
+      });
+    } catch (error) {
+      console.log("Error:", error);
+    }
+  </script>
+</body>
+</html>
