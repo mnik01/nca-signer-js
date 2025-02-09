@@ -9,9 +9,6 @@
 - Скрипт доступен через CDN: https://cdn.jsdelivr.net/gh/mnik01/nca-signer-js@latest/signer.js
 - Подпись может быть проверена и извлечена на сайте https://ezsigner.kz/#!/main
 
-Документация и доп. ресурсы:
-- todo
-
 ## Пример использования
 
 ```html
@@ -36,6 +33,12 @@
 
 Протестировано на NCALayer версии 1.4
 
-## Запуск тестов
 
-todo
+---
+Документация и доп. ресурсы:
+- [SDK NCALayer](https://pki.gov.kz/developers/)
+- https://github.com/pkigovkz
+- https://sigex-kz.github.io/ncalayer-js-client/api/
+- https://kaztoken.kz/mobile-docs/
+- https://sigex-kz.github.io/ncalayer-js-client/multisign.html
+- https://github.com/sigex-kz/ncalayer-js-client?tab=readme-ov-file
