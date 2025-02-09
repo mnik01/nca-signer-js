@@ -44,3 +44,5 @@
 - https://github.com/sigex-kz/ncalayer-js-client?tab=readme-ov-file
 - https://github.com/sigex-kz/sigex-qr-signing-client/blob/main/docs/multi.html
 - https://websocketking.com
+- https://sigex.kz/support/developers/
+- https://sigex.kz/products/sigex/
