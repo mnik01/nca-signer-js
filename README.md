@@ -42,3 +42,5 @@
 - https://kaztoken.kz/mobile-docs/
 - https://sigex-kz.github.io/ncalayer-js-client/multisign.html
 - https://github.com/sigex-kz/ncalayer-js-client?tab=readme-ov-file
+- https://github.com/sigex-kz/sigex-qr-signing-client/blob/main/docs/multi.html
+- https://websocketking.com
