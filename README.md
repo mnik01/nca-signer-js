@@ -17,8 +17,10 @@
 ```html
 <!-- Более детальный пример смотрите в папке examples -->
 <script src="https://cdn.jsdelivr.net/gh/mnik01/nca-signer-js@0.0.2-alpha/signer.js"></script>
+
 <input type="file" id="fileInput" />
 <button id="submit">Подписать файл</button>
+
 <script>
   NCASigner.connect()
   NCASigner.linkFileInput({ id: "fileInput" });
