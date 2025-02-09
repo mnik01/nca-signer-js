@@ -1,14 +1,19 @@
 # NCA Signer JS
 
+## Как это работает?
+
 Can be accessed on https://cdn.jsdelivr.net/gh/mnik01/nca-signer-js@latest/signer.js
 Sign can be checked and extracted in https://ezsigner.kz/#!/main
 
+## Пример использования
 
-Example usage:
 todo
+
+## Требования
 
 Required NCALayer version:
 todo
 
-Running tests:
+## Запуск тестов
+
 todo
